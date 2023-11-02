@@ -1,0 +1,17 @@
+function App() {
+  const name = <h1>Mari</h1>
+  const age = <h2>20</h2>
+  const email = <h2>mari@gmail.com</h2>
+
+return(
+<div className="App">
+ <div>
+   {name}
+   {age}
+   {email}
+ </div>
+</div>
+);
+}
+
+export default App;
